@@ -1,0 +1,71 @@
+#header-main {
+  font-family: Times;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+#header-main div {
+  display: flex;
+  align-items: center;
+}
+#header-main div button {
+  background: #2b4047;
+  color: white;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 0px 0.5rem;
+}
+
+/*Calendar*/
+.react-calendar * {
+  font-family: Times;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+.react-calendar {
+  border: none !important;
+  width: 100% !important;
+}
+/*head*/
+.react-calendar__month-view__weekdays,
+.react-calendar__month-view__days {
+  background-color: #162b32;
+  color: white;
+  text-transform: capitalize !important;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+}
+/*body*/
+.react-calendar__tile--now {
+  border-radius: 1rem;
+  color: black !important;
+  background-color: yellow !important;
+}
+.react-calendar__tile--active {
+  border-radius: 1rem;
+  color: black !important;
+  background-color: white !important;
+}
+.react-calendar__tile {
+  color: white;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: white !important;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575 !important;
+}
