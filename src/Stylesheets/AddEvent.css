@@ -1,0 +1,44 @@
+#add-event-card {
+  height: 65%;
+}
+#add-event-card-head {
+  font-family: Times;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: solid lightgrey 1px;
+}
+#add-event-card-head svg {
+  margin-right: 0.5rem;
+}
+#add-event-card-body {
+  padding: 1rem;
+}
+#add-event-card-body input {
+  width: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #eaeced;
+}
+#add-event-card-body section {
+  border-bottom: solid lightgrey 1px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+#add-event-card-body section div svg {
+    margin-right: 0.5rem;
+}
