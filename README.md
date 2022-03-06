@@ -10,8 +10,8 @@ Features -
 Screenshots - 
 
 <img width="235" alt="Home" src="https://user-images.githubusercontent.com/71124485/156926593-7da9aea8-81d6-44ae-bb45-ce3709418d32.PNG">
-<img width="233" alt="Main" src="https://user-images.githubusercontent.com/71124485/156926598-bd0812a5-1dd3-4d53-938a-4bafb028f209.PNG">
-<img width="224" alt="AddEvent" src="https://user-images.githubusercontent.com/71124485/156926597-6fae064d-5140-491a-b815-6448ca486eeb.PNG">
+<img width="228" alt="Main" src="https://user-images.githubusercontent.com/71124485/156926941-bd84694d-e965-45f9-a154-c0b6819dfe5a.PNG">
+<img width="227" alt="AddEvent" src="https://user-images.githubusercontent.com/71124485/156926948-eb9dc1e6-5854-4049-9add-1b1b221a82a2.PNG">
 
 
 
