@@ -1,4 +1,4 @@
-##The Site is suitable for only 360x640, please turn on responsive view for that.
+## The Site is suitable for only 360x640, please turn on responsive view for that.
 [Click Here To See the App](https://ashutosh44ks.github.io/calendar-mobile-app/).
 
 Features -
