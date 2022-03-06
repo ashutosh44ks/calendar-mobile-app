@@ -15,7 +15,7 @@
 
 .card-main {
   position: absolute;
-  bottom: -1rem;
+  bottom: 0;
   background-color: white;
   border-radius: 16px 16px 0px 0px;
   width: 100%;
@@ -91,6 +91,9 @@
   line-height: 14px;
   display: flex;
   align-items: center;
+}
+.event-card-participants svg {
+  margin-right: 0.2rem;
 }
 .event-card-foot span {
   color: #898989;
