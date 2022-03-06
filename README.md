@@ -1,3 +1,21 @@
+##The Site is suitable for only 360x640, please turn on responsive view for that.
+[Click Here To See the App](https://ashutosh44ks.github.io/calendar-mobile-app/).
+
+Features -
+  1. Completely made from React JS
+  2. No React UI framework Used
+  3. React Router is used to switch between pages
+  4. [React-Calendar](https://www.npmjs.com/package/react-calendar) is used to show Calendar
+
+Screenshots - 
+
+<img width="235" alt="Home" src="https://user-images.githubusercontent.com/71124485/156926593-7da9aea8-81d6-44ae-bb45-ce3709418d32.PNG">
+<img width="233" alt="Main" src="https://user-images.githubusercontent.com/71124485/156926598-bd0812a5-1dd3-4d53-938a-4bafb028f209.PNG">
+<img width="224" alt="AddEvent" src="https://user-images.githubusercontent.com/71124485/156926597-6fae064d-5140-491a-b815-6448ca486eeb.PNG">
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
