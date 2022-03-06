@@ -3,13 +3,12 @@ import { IoIosAddCircle } from "react-icons/io";
 import { FaUserCircle } from "react-icons/fa";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { HiOutlineRefresh } from "react-icons/hi";
+import { MdHorizontalRule } from "react-icons/md";
 
-const MainLower = ({ eventCount, events }) => {
-  function addEvent() {
-    console.log("adder");
-  }
+const MainLower = ({ eventCount, events, setToggle }) => {
   return (
     <div className="card-main">
+      <MdHorizontalRule id="horizontal-rule" />
       <div id="card-main-content">
         <div id="upcoming">
           <div className="times-bold"> Upcoming Events ({eventCount})</div>
@@ -66,7 +65,7 @@ const MainLower = ({ eventCount, events }) => {
           </div>
         </div>
       </div>
-      <button onClick={() => addEvent()}>
+      <button onClick={() => setToggle(true)}>
         <IoIosAddCircle />
       </button>
     </div>

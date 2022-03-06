@@ -20,6 +20,12 @@
   border-radius: 16px 16px 0px 0px;
   width: 100%;
 }
+.card-main svg#horizontal-rule {
+  position: absolute;
+  left: 50%;
+  transform: scaleX(4);
+  color: #dadada;
+}
 #card-main-content {
   padding: 1rem;
 }
@@ -32,16 +38,16 @@
   margin-bottom: 0.5rem;
 }
 .card-main button {
-  float: right;
   outline: none;
+  right: 0.5rem;
+  position: fixed;
+  bottom: 0.5rem;
   border: none;
+  background: transparent;
   color: #ff6a3d;
 }
 .card-main button svg {
-  position: absolute;
   font-size: 3rem;
-  right: 0.5rem;
-  bottom: 0.5rem;
 }
 
 #event-cards {

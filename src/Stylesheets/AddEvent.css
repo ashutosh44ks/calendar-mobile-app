@@ -1,5 +1,10 @@
 #add-event-card {
   height: 65%;
+  position: absolute;
+  bottom: -1rem;
+  background-color: white;
+  border-radius: 16px 16px 0px 0px;
+  width: 100%;
 }
 #add-event-card-head {
   font-family: Times;
@@ -13,8 +18,10 @@
   align-items: center;
   border-bottom: solid lightgrey 1px;
 }
-#add-event-card-head svg {
+#add-event-card-head button {
   margin-right: 0.5rem;
+  background: transparent;
+  border: none;
 }
 #add-event-card-body {
   padding: 1rem;
@@ -26,7 +33,7 @@
   border: none;
   background-color: #eaeced;
 }
-#add-event-card-body section {
+#add-event-card-body section:not(.open) {
   border-bottom: solid lightgrey 1px;
   padding: 1rem;
   display: flex;
@@ -39,6 +46,29 @@
   line-height: 14px;
   letter-spacing: 0em;
 }
+#add-event-card-body section {
+  border-bottom: solid lightgrey 1px;
+  padding: 1rem;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
 #add-event-card-body section div svg {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+#add-event-card-body section button {
+  float: right;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+}
+.add-event-toggle-div {
+  margin: 0.2rem 1.4rem;
+}
+.add-event-toggle-div span {
+  float: right;
 }

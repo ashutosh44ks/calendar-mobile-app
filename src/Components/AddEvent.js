@@ -1,4 +1,5 @@
 import "../Stylesheets/AddEvent.css";
+import { useState } from "react";
 import { GrClose } from "react-icons/gr";
 import { IoIosPeople, IoIosAttach } from "react-icons/io";
 import {
@@ -7,12 +8,16 @@ import {
   AiOutlineRight,
 } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
+import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 
-const AddEvent = () => {
+const AddEvent = ({ setToggle }) => {
+  const [switchToggle, setSwitchToggle] = useState(false);
   return (
-    <div id="add-event-card" className="card-main">
+    <div id="add-event-card">
       <div id="add-event-card-head">
-        <GrClose />
+        <button onClick={() => setToggle(false)}>
+          <GrClose />
+        </button>
         New Event
       </div>
       <div id="add-event-card-body">
@@ -24,12 +29,20 @@ const AddEvent = () => {
           </div>
           <AiOutlineRight />
         </section>
-        <section>
+        <section className="open">
           <div>
             <AiOutlineClockCircle />
             All Day
+            <button onClick={() => setSwitchToggle(!switchToggle)}>
+              {switchToggle ? <BsToggleOn /> : <BsToggleOff />}
+            </button>
           </div>
-          <AiOutlineRight />
+          <div className="add-event-toggle-div">
+            Thursday, 21 September <span>02:30pm</span>
+          </div>
+          <div className="add-event-toggle-div">
+            Thursday, 21 September <span>03:30pm</span>
+          </div>
         </section>
         <section>
           <div>
