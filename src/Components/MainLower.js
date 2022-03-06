@@ -17,7 +17,7 @@ const MainLower = ({ eventCount, events, setToggle }) => {
               <div className="event-card">
                 <div className="event-card-head">{event.title}</div>
                 <div className="event-card-participants">
-                  <FaUserCircle />
+                  <FaUserCircle /> {`+${event.participants -1 } others`}
                 </div>
                 <div className="event-card-foot">
                   {event.time} <span>({event.timeLeft})</span>
@@ -47,6 +47,7 @@ const MainLower = ({ eventCount, events, setToggle }) => {
                     </div>
                     <div className="event-card-long-participants">
                       <FaUserCircle />
+                      {`+${event.participants -1} others`}
                     </div>
                     <div className="event-card-long-foot">{event.callCode}</div>
                   </div>

@@ -84,6 +84,13 @@
 }
 .event-card-participants {
   margin: 0.4rem 0;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
 }
 .event-card-foot span {
   color: #898989;
@@ -139,7 +146,17 @@
   border-left: 0.4rem solid #97efe0;
 }
 .event-card-long-participants {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
   margin: 0.4rem 0;
+  display: flex;
+  align-items: center;
+}
+.event-card-long-participants svg {
+  margin-right: 0.2rem;
 }
 .event-card-long-head,
 .event-card-long-foot {
