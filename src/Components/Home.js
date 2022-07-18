@@ -12,7 +12,7 @@ const Home = () => {
       <div id="bg-pic"></div>
       <div id="welcome">
         <div id="welcome-content">
-          <h2> Hi Aman,</h2>
+          <h2> Hi User</h2>
           <div>
             Welcome to your daily event calendar. Be more engaging &
             personalised than ever before. We’ll help you in{" "}
