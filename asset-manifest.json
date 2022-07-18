@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/calendar-mobile-app/static/css/main.9137e3e7.css",
-    "main.js": "/calendar-mobile-app/static/js/main.1a699d2f.js",
+    "main.css": "/calendar-mobile-app/static/css/main.f8219a43.css",
+    "main.js": "/calendar-mobile-app/static/js/main.e1514f20.js",
     "static/js/787.5c346a91.chunk.js": "/calendar-mobile-app/static/js/787.5c346a91.chunk.js",
     "static/media/bg.PNG": "/calendar-mobile-app/static/media/bg.6fc96ddd389ca6eaf9e1.PNG",
     "index.html": "/calendar-mobile-app/index.html",
-    "main.9137e3e7.css.map": "/calendar-mobile-app/static/css/main.9137e3e7.css.map",
-    "main.1a699d2f.js.map": "/calendar-mobile-app/static/js/main.1a699d2f.js.map",
+    "main.f8219a43.css.map": "/calendar-mobile-app/static/css/main.f8219a43.css.map",
+    "main.e1514f20.js.map": "/calendar-mobile-app/static/js/main.e1514f20.js.map",
     "787.5c346a91.chunk.js.map": "/calendar-mobile-app/static/js/787.5c346a91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9137e3e7.css",
-    "static/js/main.1a699d2f.js"
+    "static/css/main.f8219a43.css",
+    "static/js/main.e1514f20.js"
   ]
 }
