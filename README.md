@@ -1,17 +1,23 @@
-## The Site is suitable for only 360x640, please turn on responsive view for that.
-[Click Here To See the App](https://ashutosh44ks.github.io/calendar-mobile-app/).
+## Task Tracker with Calendar (Concept Site)
 
-Features -
-  1. Completely made from React JS
+### Deployment
+Note that the site was designed mobile first (360x640) and works best for the same.
+[Click Here To See the App Deployment](https://ashutosh44ks.github.io/calendar-mobile-app/).
+
+### Features -
+  1. Technology used React JS
   2. No React UI framework Used
-  3. React Router is used to switch between pages
+  3. React Router is used to switch between pages - Home and Main
   4. [React-Calendar](https://www.npmjs.com/package/react-calendar) is used to show Calendar
+  5. Tasks can be added and removed
 
-Screenshots - 
+### Screenshots - 
 
-<img width="235" alt="Home" src="https://user-images.githubusercontent.com/71124485/156926593-7da9aea8-81d6-44ae-bb45-ce3709418d32.PNG">
-<img width="228" alt="Main" src="https://user-images.githubusercontent.com/71124485/156926941-bd84694d-e965-45f9-a154-c0b6819dfe5a.PNG">
-<img width="227" alt="AddEvent" src="https://user-images.githubusercontent.com/71124485/156926948-eb9dc1e6-5854-4049-9add-1b1b221a82a2.PNG">
+<img width="207" alt="home" src="https://user-images.githubusercontent.com/71124485/179542420-18563a17-3451-41e5-9273-cf760da222f9.PNG">
+<img width="213" alt="main" src="https://user-images.githubusercontent.com/71124485/179542414-be452971-9651-44af-9598-5e1fefa44aed.PNG">
+<img width="209" alt="main-upper" src="https://user-images.githubusercontent.com/71124485/179542500-15bfbe13-4c93-4936-bc6f-ee1d1ae6890b.PNG">
+<img width="214" alt="addEvent" src="https://user-images.githubusercontent.com/71124485/179542503-c2abb9e5-908c-4ffb-b0d0-2ff6d3c46634.PNG">
+
 
 
 
