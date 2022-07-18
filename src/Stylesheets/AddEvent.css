@@ -17,7 +17,7 @@
   z-index: 2;
 }
 #add-event-card-head {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -97,4 +97,10 @@
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+}
+@media screen and (min-width: 400px) {
+  #add-event-card {
+    height: 82%;
+    position: fixed;
+  }
 }
