@@ -24,6 +24,7 @@ const Main = () => {
       time: "11:00am",
       timeLeft: "45mins",
       callCode: "456 676 7889",
+      key: 0,
     },
     {
       title: "Q2 Planning",
@@ -31,6 +32,7 @@ const Main = () => {
       time: "01:20pm",
       timeLeft: "60mins",
       callCode: "123 456 7890",
+      key: 1,
     },
     {
       title: "Coldplay Concert",
@@ -38,6 +40,7 @@ const Main = () => {
       time: "09:20pm",
       timeLeft: "120mins",
       callCode: "N/A",
+      key: 2,
     },
   ]);
   return (
@@ -46,6 +49,7 @@ const Main = () => {
       <MainLower
         eventCount={eventCount}
         events={events}
+        setEvents={setEvents}
         setToggle={setAddEventToggle}
         days={days}
       />
@@ -55,6 +59,7 @@ const Main = () => {
           events={events}
           setEvents={setEvents}
           days={days}
+          eventCount={eventCount}
           setEventCount={setEventCount}
         />
       ) : (

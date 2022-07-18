@@ -10,7 +10,7 @@ import {
 import { IoLocationOutline } from "react-icons/io5";
 import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 
-const AddEvent = ({ setToggle, events, setEvents, days, setEventCount }) => {
+const AddEvent = ({ setToggle, events, setEvents, days, eventCount, setEventCount }) => {
   const [switchToggle, setSwitchToggle] = useState(false);
   const [title, setTitle] = useState("");
   const months = [
@@ -95,6 +95,7 @@ const AddEvent = ({ setToggle, events, setEvents, days, setEventCount }) => {
             <button
               id="add-event-card-btn"
               onClick={() => {
+                setEventCount((eventCount) => eventCount + 1);
                 setEvents([
                   ...events,
                   {
@@ -103,9 +104,9 @@ const AddEvent = ({ setToggle, events, setEvents, days, setEventCount }) => {
                     time: "11:00am",
                     timeLeft: "45mins",
                     callCode: "456 676 7889",
+                    key: eventCount
                   },
                 ]);
-                setEventCount((eventCount) => eventCount + 1);
                 setToggle(false);
               }}
             >
