@@ -1,5 +1,5 @@
 #header-main {
-  font-family: Times;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -29,6 +29,7 @@
 }
 #header-main svg {
   font-size: 1rem;
+  margin-right: 1rem;
 }
 
 /*Calendar*/
@@ -36,7 +37,7 @@
   display: none;
 }
 .react-calendar * {
-  font-family: Times;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -49,7 +50,7 @@
 /*head*/
 .react-calendar__month-view__weekdays {
   position: sticky;
-  z-index: 1000;
+  z-index: 0;
 }
 .react-calendar__month-view__weekdays,
 .react-calendar__month-view__days {

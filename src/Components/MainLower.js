@@ -5,13 +5,16 @@ import { TiWeatherPartlySunny } from "react-icons/ti";
 import { HiOutlineRefresh } from "react-icons/hi";
 import { MdHorizontalRule } from "react-icons/md";
 
-const MainLower = ({ eventCount, events, setToggle }) => {
+const MainLower = ({ eventCount, events, setToggle, days }) => {
   return (
     <div className="card-main">
-      <MdHorizontalRule id="horizontal-rule" />
+      <MdHorizontalRule id="horizontal-rule" onClick={()=>{
+        const cardMain = document.querySelector(".card-main");
+        cardMain.classList.toggle("card-main-with-calendar");
+      }}/>
       <div id="card-main-content">
         <div id="upcoming">
-          <div className="times-bold"> Upcoming Events ({eventCount})</div>
+          <div className="roboto-bold"> Upcoming Events ({eventCount})</div>
           <div id="event-cards">
             {events.map((event, i) => (
               <div className="event-card">
@@ -28,8 +31,8 @@ const MainLower = ({ eventCount, events, setToggle }) => {
         </div>
         <div id="days">
           <div id="today">
-            <div className="times-bold">
-              Today, <span className="times-reg">Friday 22</span>
+            <div className="roboto-bold">
+              Today, <span className="roboto-reg">{days[new Date().getDay()]} 22</span>
               <div id="temp">
                 <TiWeatherPartlySunny /> 31°/25°
               </div>
@@ -37,7 +40,7 @@ const MainLower = ({ eventCount, events, setToggle }) => {
             <div id="days-long">
               {events.map((event, i) => (
                 <div className="event-card-long">
-                  <div className="times">
+                  <div className="roboto">
                     {event.time} <span>{event.timeLeft}</span>
                   </div>
                   <div className="event-card-long-body">
@@ -56,8 +59,8 @@ const MainLower = ({ eventCount, events, setToggle }) => {
             </div>
           </div>
           <div id="tomorrow">
-            <div className="times-bold">
-              Tomorrow, <span className="times-reg">Saturday 22</span>
+            <div className="roboto-bold">
+              Tomorrow, <span className="roboto-reg">{days[new Date().getDay()+1]} 22</span>
               <div id="temp">
                 <TiWeatherPartlySunny /> 32°/27°
               </div>

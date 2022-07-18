@@ -6,6 +6,15 @@ import MainLower from "./MainLower";
 import AddEvent from "./AddEvent";
 
 const Main = () => {
+  const days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
   const [eventCount, setEventCount] = useState(3);
   const [addEventToggle, setAddEventToggle] = useState(false);
   const [events, setEvents] = useState([
@@ -31,13 +40,26 @@ const Main = () => {
       callCode: "N/A",
     },
   ]);
-  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-  const currMonth = months[new Date().getMonth()];
   return (
     <>
-      <MainUpper currMonth={currMonth}/>
-      <MainLower eventCount={eventCount} events={events} setToggle={setAddEventToggle} />
-      {addEventToggle?<AddEvent setToggle={setAddEventToggle} />:""}      
+      <MainUpper />
+      <MainLower
+        eventCount={eventCount}
+        events={events}
+        setToggle={setAddEventToggle}
+        days={days}
+      />
+      {addEventToggle ? (
+        <AddEvent
+          setToggle={setAddEventToggle}
+          events={events}
+          setEvents={setEvents}
+          days={days}
+          setEventCount={setEventCount}
+        />
+      ) : (
+        ""
+      )}
     </>
   );
 };

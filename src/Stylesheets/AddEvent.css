@@ -1,13 +1,23 @@
+#bg-for-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
 #add-event-card {
-  height: 65%;
+  height: 75%;
   position: absolute;
   bottom: 0;
   background-color: white;
   border-radius: 16px 16px 0px 0px;
   width: 100%;
+  z-index: 2;
 }
 #add-event-card-head {
-  font-family: Times;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -68,7 +78,23 @@
 }
 .add-event-toggle-div {
   margin: 0.2rem 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
 }
 .add-event-toggle-div span {
   float: right;
+}
+#add-event-card-btn {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #ff6a3d;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+#add-event-card-btn-parent {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
